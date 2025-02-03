@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz San Valentín</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="message" onclick="openCard()">Feliz San Valentín, mi amor ❤️</h1>
+    </div>
+
+    <!-- Primera carta (bonita) -->
+    <div class="card" id="card1">
+        <div class="card-content">
+            <h2>Para mi Mamoy, mi todo ❤️</h2>
+            <p>Mi amor, en este día tan especial quiero aprovechar para recordarte lo afortunado que me siento de tenerte a mi lado. Eres la luz que ilumina mis días, la fuerza que me inspira y la paz que me calma. No solo eres mi novia, eres mi mejor amiga, mi confidente y la persona con la que quiero construir un futuro lleno de amor y felicidad. Te amo más de lo que las palabras pueden expresar, y estoy emocionado por todo lo que aún nos espera. Gracias por ser tú, por amarme y por hacer mi vida más hermosa cada día. 💖</p>
+            <button onclick="openCard2()">Continuar</button>
+        </div>
+    </div>
+
+    <!-- Segunda carta (pregunta San Valentín) -->
+    <div class="card" id="card2">
+        <div class="card-content">
+            <h2>¿Quieres ser mi San Valentín? ❤️</h2>
+            <p>Aunque ya eres mi novia, quiero preguntártelo de nuevo en este día tan especial. ¿Quieres compartir conmigo todos los momentos hermosos de este día y todos los que vendrán? 😘</p>
+            <button onclick="closeCard()">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
